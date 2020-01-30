@@ -11,7 +11,7 @@ body {
     font-family: 'Bangers', cursive;
     margin: auto;
     width: 100%;
-    font-size: 6.0em;
+    font-size: 4.0em;
     color: white;
     /* background-color: black; */
 }
@@ -26,7 +26,7 @@ body {
 #norml {
     width: 75%;
     margin: auto;
-    font-size: 1.8em;
+    font-size: 1.4em;
     background-color: black;
     color: white;
 }
@@ -40,7 +40,7 @@ body {
 
 /* Diagrams */
 #diagrams-btn{
-    font-size: 1.8em;
+    font-size: 1.4em;
     width: 75%;
     margin: auto;
     background-color: black;
@@ -53,19 +53,19 @@ body {
 }
 
 #terpenes{
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 #distillation{
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 #cannabinoids{
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 #hemp{
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 
@@ -93,7 +93,7 @@ body {
     margin: auto;
     background-color: black;
     color: white;
-    font-size: 1.8em;
+    font-size: 1.4em;
 } 
 
 #conversion-table-btn:hover {
@@ -102,16 +102,16 @@ body {
 }
 
 #gram-btn{
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 #ounce-btn{
-    font-size: 1.3em;
+    font-size: 1.2em;
 
 }
 
 #temp-btn{
-    font-size: 1.3em;
+    font-size: 1.2em;
 
 }
 
@@ -198,7 +198,7 @@ background-color: rgb(235, 232, 232);
     margin: auto;
     background-color: black;
     color: white;
-    font-size: 1.8em;
+    font-size: 1.4em;
 
 }
 
@@ -223,7 +223,7 @@ background-color: rgb(235, 232, 232);
     margin: auto;
     background-color: black;
     color: white;
-    font-size: 1.8em;
+    font-size: 1.4em;
 }
 
 #dispensaries-btn:hover {
@@ -239,13 +239,13 @@ background-color: rgb(235, 232, 232);
 #leafly{
     color: black;
     background-color: white;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 #weedmaps{
     color: black;
     background-color: white;
-    font-size: 1.3em;
+    font-size: 1.2em;
 
 }
 
