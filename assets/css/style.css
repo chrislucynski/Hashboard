@@ -43,8 +43,21 @@ body {
     text-decoration: none;
 }
 
-/* #terpenes{
-} */
+#terpenes-img{
+    width: 75vw;
+}
+
+#distillation-img{
+    width: 75vw;
+}
+
+#cannabinoids-img{
+    width: 75vw;
+}
+
+#hemp-img{
+    width: 75vw;
+}
 
 
 /* Conversion Table styles */
