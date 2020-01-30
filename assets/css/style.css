@@ -1,0 +1,214 @@
+body {
+    background-image: url('/assets/images/LED.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+/* Toggling */
+.hide {
+    display: none;
+}
+
+
+/* NORML */
+#norml {
+    width: 75%;
+    margin: auto;
+    font-size: 2.2em;
+    background-color: black;
+    color: white;
+}
+
+#norml:hover {
+    background-color: green;
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Diagrams */
+#diagrams-btn{
+    width: 75%;
+    margin: auto;
+    background-color: black;
+    color: white;
+}
+#diagrams-btn:hover {
+    color: white;
+    background-color: green;
+    text-decoration: none;
+}
+
+/* #terpenes{
+} */
+
+
+/* Conversion Table styles */
+#conversion-table-btn{
+    width: 75%;
+    margin: auto;
+    background-color: black;
+    color: white;
+} 
+
+#conversion-table-btn:hover {
+    background-color: green;
+    color: white;
+}
+
+
+
+/* Tables */
+.table-data{
+    border: solid 1px black;
+}
+
+.table-header{
+    border: solid 1px black;
+    background-color: white;
+}
+
+
+
+
+
+/* Weight classes */
+.lightest{
+    background-color: white;
+}
+
+.lighter{
+background-color: rgb(235, 232, 232);
+}
+
+.light{
+    background-color: rgb(177, 176, 176);
+}
+
+.heavy{
+    background-color: rgb(131, 130, 130);
+    color: white;
+}
+
+.heavier{
+    background-color: rgb(77, 76, 76);
+    color: white;
+}
+
+.heaviest{
+    background-color: black;
+    color: white;
+}
+
+
+
+/* Temperature classes */
+.coldest{
+    background-color: aqua;
+}
+
+.colder{
+    background-color: yellow;
+}
+
+.cold{
+    background-color: orange;
+}
+
+.hot{
+    background-color: red;
+    color: white;
+}
+
+.hotter{
+    background-color: rgb(218, 2, 2);
+    color: white;
+}
+
+.hottest{
+    background-color: rgb(134, 9, 9);
+    color: white;
+}
+
+
+
+/* Recipes */
+#recipes-btn{
+    width: 75%;
+    margin: auto;
+    background-color: black;
+    color: white;
+}
+
+#recipes-btn:hover {
+    color: white;
+    background-color: green;
+    text-decoration: none;
+}
+
+#recipes{
+    display: block;
+    margin: auto;
+    font-size: 1.8em;
+}
+
+
+
+/* Dispensaries */
+#dispensaries-btn{
+    width: 75%;
+    margin: auto;
+    background-color: black;
+    color: white;
+}
+
+#dispensaries-btn:hover {
+    color: white;
+    background-color: green;
+    text-decoration: none;
+}
+
+.dispensaries{
+    
+}
+
+#leafly{
+    color: black;
+    background-color: white;
+    font-size: 1.9em;
+}
+
+#weedmaps{
+    color: black;
+    background-color: white;
+    font-size: 1.9em;
+
+}
+
+#leafly:hover{
+    color: white;
+    background-color: black;
+    text-decoration: none;
+
+}
+
+#weedmaps:hover{
+    color: white;
+    background-color: black;
+    text-decoration: none;
+
+}
+
+
+
+
+
+.table-header:hover{
+    background-color: black;
+    color: white; 
+}
+
