@@ -1,5 +1,5 @@
 body {
-    background-image: url('/assets/images/LED.jpg');
+    background-image: url('../../assets/images/LED.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
