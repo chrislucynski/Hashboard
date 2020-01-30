@@ -7,6 +7,14 @@ body {
     height: 100vh;
 }
 
+#header{
+    font-family: 'Bangers', cursive;
+    margin: auto;
+    width: 100%;
+    font-size: 6.0em;
+    color: white;
+    /* background-color: black; */
+}
 
 /* Toggling */
 .hide {
@@ -203,6 +211,7 @@ background-color: rgb(235, 232, 232);
 #recipes{
     display: block;
     margin: auto;
+    font-size: 1.3em;
 
 }
 

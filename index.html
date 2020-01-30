@@ -8,13 +8,14 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Bangers|Fredoka+One&display=swap" rel="stylesheet">
     <title>The Hashboard (by) Chris</title>
   </head>
   <body>
     <!-- TradingView Widget BEGIN -->
     <div class="tradingview-widget-container">
         <div class="tradingview-widget-container__widget"></div>
-        <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com" rel="noopener" target="_blank"><span class="blue-text">Ticker Tape</span></a> by TradingView</div>
+        <!-- <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com" rel="noopener" target="_blank"><span class="blue-text">Ticker Tape</span></a> by TradingView</div> -->
         <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
         {
         "symbols": [
@@ -64,6 +65,9 @@
     </div>
     <!-- TradingView Widget END -->
 
+    <div id="header-wrapper">
+        <h1 id="header" class="text-center">The Hashboard</h1>
+    </div>
     
     <!-- State laws -->
     <div class="text-center mx-1 my-5">
@@ -319,7 +323,7 @@
         <h1 id="dispensaries-btn" class="table-header rounded shadow p-2 mb-5">
             Dispensaries
         </h1>
-        <div class="dispensaries mx-2 row hide">
+        <div class="dispensaries mx-2 mb-5 row hide">
             <div class="col">
                 <div class="text-center">
                     <a 
