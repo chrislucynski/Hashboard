@@ -1,5 +1,4 @@
 // Diagrams
-
 $('#diagrams-btn').click(function() {
     $('.diagrams').toggleClass('hide')
 })
@@ -18,7 +17,6 @@ $('#cannabinoids').click(function() {
 $('#hemp').click(function() {
     $('#hemp-img').toggleClass('hide')
 })
-
 
 // Converstion Table
 $('#conversion-table-btn').click(function() {
@@ -44,14 +42,16 @@ $('#dispensaries-btn').click(function(){
 })
 
 
-
 // News
-
+$('#news-btn').click(function() {
+    $('.news').toggleClass('hide')
+})
 
 
 // Jobs
-
-
+$('#jobs-btn').click(function() {
+    $('.jobs').toggleClass('hide')
+})
 
 
 // Recipes

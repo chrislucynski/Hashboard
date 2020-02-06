@@ -45,7 +45,7 @@ body {
     .table-header{
         color: white;
         border: solid 1px white;
-        background-color: black;
+        background-color: green;
         
     }
 
@@ -161,34 +161,54 @@ body {
 /* Dispensaries */
     #leafly{
         color: white;
-        background-color: black;
+        background-color: green;
         font-size: 1.2em;
     }
 
     #weedmaps{
         color: white;
-        background-color: black;
+        background-color: green;
         font-size: 1.2em;
 
     }
 
 
 /* News */
+    #leafly-news{
+        color: white;
+        background-color: green;
+        font-size: 1.2em;
+    }
+    #ganjapreneur-news{
+        color: white;
+        background-color: green;
+        font-size: 1.2em;
+    }
 
 
 /* Jobs */
-
-
-/* Laws */
     #penalties{
         color: white;
-        background-color: black;
+        background-color: green;
         font-size: 1.2em;
     }
 
     #medical-laws{
         color: white;
-        background-color: black;
+        background-color: green;
+        font-size: 1.2em;
+    }
+
+/* Laws */
+    #careers{
+        color: white;
+        background-color: green;
+        font-size: 1.2em;
+    }
+
+    #weed-hire{
+        color: white;
+        background-color: green;
         font-size: 1.2em;
     }
 
@@ -246,8 +266,6 @@ body {
 
 
 
-
-
 /* BTN */
     #diagrams-btn{
         font-size: 1.3em;
@@ -257,7 +275,6 @@ body {
         color: white;
         font-family: 'Bangers', cursive;
         padding: 0px;
-
     }
 
     #conversion-table-btn{
@@ -268,7 +285,6 @@ body {
         font-size: 1.3em;
         font-family: 'Bangers', cursive;
         padding: 0px;
-
     } 
 
     #dispensaries-btn{
@@ -278,8 +294,6 @@ body {
         color: white;
         font-size: 1.3em;
         font-family: 'Bangers', cursive;
-        
-
     }
 
     #news-btn{
@@ -290,7 +304,6 @@ body {
         font-size: 1.3em;
         font-family: 'Bangers', cursive;
         padding: 0px;
-
     }
 
     #jobs-btn{
@@ -301,7 +314,6 @@ body {
         font-size: 1.3em;
         font-family: 'Bangers', cursive;
         padding: 0px;
-
     }
 
     #recipes-btn{
@@ -312,8 +324,6 @@ body {
         font-size: 1.3em;
         font-family: 'Bangers', cursive;
         padding: 0px;
-
-
     }
 
     #laws-btn {
@@ -324,7 +334,6 @@ body {
         color: white;
         font-family: 'Bangers', cursive;
         padding: 0px;
-
     }
 
 
