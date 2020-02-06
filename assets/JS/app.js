@@ -38,6 +38,22 @@ $('#temp-btn').click(function() {
 })
 
 
+// Dispensaries
+$('#dispensaries-btn').click(function(){
+    $('.dispensaries').toggleClass('hide')
+})
+
+
+
+// News
+
+
+
+// Jobs
+
+
+
+
 // Recipes
 $('#recipes-btn').click(function() {
     $('.recipes').toggleClass('hide')
@@ -59,7 +75,8 @@ $('#gummies-btn').click(function() {
     $('#gummies').toggleClass('hide')
 })
 
-// Dispensaries
-$('#dispensaries-btn').click(function(){
-    $('.dispensaries').toggleClass('hide')
+
+// Laws
+$('#laws-btn').click(function() {
+    $('.laws').toggleClass('hide')
 })

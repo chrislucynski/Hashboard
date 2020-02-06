@@ -4,271 +4,339 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 100%;
+    margin:0;
 }
 
-#header{
-    font-family: 'Bangers', cursive;
-    margin: auto;
-    width: 100%;
-    font-size: 4.0em;
-    color: white;
-    /* background-color: black; */
+.main-wrapper{
+    min-height: 100%;
+    margin-bottom: -50px;
 }
+
+
+/* Hashboard Header */
+    #header{
+        font-family: 'Bangers', cursive;
+        margin: auto;
+        width: 100%;
+        font-size: 4.0em;
+        color: white;
+        /* background-color: black; */
+    }
+
 
 /* Toggling */
-.hide {
-    display: none;
-}
-
-
-/* NORML */
-#norml {
-    width: 75%;
-    margin: auto;
-    font-size: 1.4em;
-    background-color: black;
-    color: white;
-}
-
-#norml:hover {
-    background-color: green;
-    color: white;
-    text-decoration: none;
-}
-
-
-/* Diagrams */
-#diagrams-btn{
-    font-size: 1.4em;
-    width: 75%;
-    margin: auto;
-    background-color: black;
-    color: white;
-}
-#diagrams-btn:hover {
-    color: white;
-    background-color: green;
-    text-decoration: none;
-}
-
-#terpenes{
-    font-size: 1.2em;
-}
-
-#distillation{
-    font-size: 1.2em;
-}
-
-#cannabinoids{
-    font-size: 1.2em;
-}
-
-#hemp{
-    font-size: 1.2em;
-}
-
-
-
-#terpenes-img{
-    width: 75vw;
-}
-
-#distillation-img{
-    width: 75vw;
-}
-
-#cannabinoids-img{
-    width: 75vw;
-}
-
-#hemp-img{
-    width: 75vw;
-}
-
-
-/* Conversion Table styles */
-#conversion-table-btn{
-    width: 75%;
-    margin: auto;
-    background-color: black;
-    color: white;
-    font-size: 1.4em;
-} 
-
-#conversion-table-btn:hover {
-    background-color: green;
-    color: white;
-}
-
-#gram-btn{
-    font-size: 1.2em;
-}
-
-#ounce-btn{
-    font-size: 1.2em;
-
-}
-
-#temp-btn{
-    font-size: 1.2em;
-
-}
-
+    .hide {
+        display: none;
+    }
 
 
 /* Tables */
-.table-data{
-    border: solid 1px black;
-    font-size: 0.8em;
-}
+    .table-data{
+        border: solid 1px black;
+        font-size: 0.8em;
+    }
 
-.table-header{
-    border: solid 1px black;
-    background-color: white;
-}
+    .table-btn{
+        border: solid 1px white;
+        background-color: black;
+    }
 
-
-
-
-
-/* Weight classes */
-.lightest{
-    background-color: white;
-}
-
-.lighter{
-background-color: rgb(235, 232, 232);
-}
-
-.light{
-    background-color: rgb(177, 176, 176);
-}
-
-.heavy{
-    background-color: rgb(131, 130, 130);
-    color: white;
-}
-
-.heavier{
-    background-color: rgb(77, 76, 76);
-    color: white;
-}
-
-.heaviest{
-    background-color: black;
-    color: white;
-}
+    .table-header{
+        color: white;
+        border: solid 1px white;
+        background-color: black;
+        
+    }
 
 
 
-/* Temperature classes */
-.coldest{
-    background-color: aqua;
-}
+/* Diagrams */
+    #terpenes{
+        font-size: 1.2em;
+    }
 
-.colder{
-    background-color: yellow;
-}
+    #distillation{
+        font-size: 1.2em;
+    }
 
-.cold{
-    background-color: orange;
-}
+    #cannabinoids{
+        font-size: 1.2em;
+    }
 
-.hot{
-    background-color: red;
-    color: white;
-}
+    #hemp{
+        font-size: 1.2em;
+    }
 
-.hotter{
-    background-color: rgb(218, 2, 2);
-    color: white;
-}
+    #terpenes-img{
+        width: 75vw;
+    }
 
-.hottest{
-    background-color: rgb(134, 9, 9);
-    color: white;
-}
+    #distillation-img{
+        width: 75vw;
+    }
+
+    #cannabinoids-img{
+        width: 75vw;
+    }
+
+    #hemp-img{
+        width: 75vw;
+    }
+
+
+    /* Conversion Table styles */
+        #gram-btn{
+            font-size: 1.2em;
+        }
+
+        #ounce-btn{
+            font-size: 1.2em;
+        }
+
+        #temp-btn{
+            font-size: 1.2em;
+        }
+
+
+    /* Weight classes */
+        .lightest{
+            background-color: white;
+        }
+
+        .lighter{
+        background-color: rgb(235, 232, 232);
+        }
+
+        .light{
+            background-color: rgb(177, 176, 176);
+        }
+
+        .heavy{
+            background-color: rgb(131, 130, 130);
+            color: white;
+        }
+
+        .heavier{
+            background-color: rgb(77, 76, 76);
+            color: white;
+        }
+
+        .heaviest{
+            background-color: black;
+            color: white;
+        }
 
 
 
-/* Recipes */
-#recipes-btn{
-    width: 75%;
-    margin: auto;
-    background-color: black;
-    color: white;
-    font-size: 1.4em;
+    /* Temperature classes */
+        .coldest{
+            background-color: aqua;
+        }
 
-}
+        .colder{
+            background-color: yellow;
+        }
 
-#recipes-btn:hover {
-    color: white;
-    background-color: green;
-    text-decoration: none;
-}
+        .cold{
+            background-color: orange;
+        }
 
-#recipes{
-    display: block;
-    margin: auto;
-    font-size: 1.3em;
+        .hot{
+            background-color: red;
+            color: white;
+        }
 
-}
+        .hotter{
+            background-color: rgb(218, 2, 2);
+            color: white;
+        }
 
+        .hottest{
+            background-color: rgb(134, 9, 9);
+            color: white;
+        }
 
 
 /* Dispensaries */
-#dispensaries-btn{
-    width: 75%;
-    margin: auto;
-    background-color: black;
-    color: white;
-    font-size: 1.4em;
+    #leafly{
+        color: white;
+        background-color: black;
+        font-size: 1.2em;
+    }
+
+    #weedmaps{
+        color: white;
+        background-color: black;
+        font-size: 1.2em;
+
+    }
+
+
+/* News */
+
+
+/* Jobs */
+
+
+/* Laws */
+    #penalties{
+        color: white;
+        background-color: black;
+        font-size: 1.2em;
+    }
+
+    #medical-laws{
+        color: white;
+        background-color: black;
+        font-size: 1.2em;
+    }
+
+
+/* Recipes */
+    #recipes{
+        font-size: 1.3em;
+        width: 100%;
+
+    }
+
+
+/* Header Text */
+    #diagrams-text{
+        color: white; 
+        font-family: 'Bowlby One SC', cursive;
+        font-size: 1.9em;
+    }
+
+    #conversion-tables-text{
+        color: white; 
+        font-family: 'Bowlby One SC', cursive;
+        font-size: 1.9em;
+    }
+
+    #dispensaries-text{
+        color: white; 
+        font-family: 'Bowlby One SC', cursive;
+        font-size: 1.9em;
+    }
+
+    #news-text{
+        color: white; 
+        font-family: 'Bowlby One SC', cursive;
+        font-size: 2.5em;
+    }
+
+    #jobs-text{
+        color: white; 
+        font-family: 'Bowlby One SC', cursive;
+        font-size: 2.5em;
+    }
+
+    #laws-text{
+        color: white; 
+        font-family: 'Bowlby One SC', cursive;
+        font-size: 2.5em;
+    }
+
+    #recipes-text{
+        color: white; 
+        font-family: 'Bowlby One SC', cursive;
+        font-size: 2.5em;
+    }
+
+
+
+
+
+/* BTN */
+    #diagrams-btn{
+        font-size: 1.3em;
+        width: 75%;
+        margin: auto;
+        background-color: black;
+        color: white;
+        font-family: 'Bangers', cursive;
+        padding: 0px;
+
+    }
+
+    #conversion-table-btn{
+        width: 75%;
+        margin: auto;
+        background-color: black;
+        color: white;
+        font-size: 1.3em;
+        font-family: 'Bangers', cursive;
+        padding: 0px;
+
+    } 
+
+    #dispensaries-btn{
+        width: 75%;
+        margin: auto;
+        background-color: black;
+        color: white;
+        font-size: 1.3em;
+        font-family: 'Bangers', cursive;
+        
+
+    }
+
+    #news-btn{
+        width: 75%;
+        margin: auto;
+        background-color: black;
+        color: white;
+        font-size: 1.3em;
+        font-family: 'Bangers', cursive;
+        padding: 0px;
+
+    }
+
+    #jobs-btn{
+        width: 75%;
+        margin: auto;
+        background-color: black;
+        color: white;
+        font-size: 1.3em;
+        font-family: 'Bangers', cursive;
+        padding: 0px;
+
+    }
+
+    #recipes-btn{
+        width: 75%;
+        margin: auto;
+        background-color: black;
+        color: white;
+        font-size: 1.3em;
+        font-family: 'Bangers', cursive;
+        padding: 0px;
+
+
+    }
+
+    #laws-btn {
+        width: 75%;
+        margin: auto;
+        font-size: 1.3em;
+        background-color: black;
+        color: white;
+        font-family: 'Bangers', cursive;
+        padding: 0px;
+
+    }
+
+
+
+.push{
+    height:50px;
 }
 
-#dispensaries-btn:hover {
-    color: white;
-    background-color: green;
-    text-decoration: none;
-}
-
-.dispensaries{
-    
-}
-
-#leafly{
-    color: black;
-    background-color: white;
-    font-size: 1.2em;
-}
-
-#weedmaps{
-    color: black;
-    background-color: white;
-    font-size: 1.2em;
-
-}
-
-#leafly:hover{
-    color: white;
-    background-color: black;
-    text-decoration: none;
-
-}
-
-#weedmaps:hover{
-    color: white;
-    background-color: black;
-    text-decoration: none;
-
-}
-
-
-
-
-
-.table-header:hover{
-    background-color: black;
-    color: white; 
-}
+/* Footer */
+    .footer-wrapper {
+    position: fixed;
+    bottom: 0px; 
+    width: auto;
+    }
 
